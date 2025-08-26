@@ -8,5 +8,14 @@
     "rootDir": ".",
     "strict": true,
     "skipLibCheck": true
-  }
+  },
+  "include": [
+    "*.ts",
+    "config/**/*",
+    "controllers/**/*",
+    "middleware/**/*",
+    "models/**/*",
+    "routes/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
 }
