@@ -5,7 +5,7 @@ import {
   getJobApplicationById,
   updateJobApplicationStatus,
   deleteJobApplication,
-} from "../controllers/jobApplicationController";
+} from "../../controllers/jobApplicationController";
 import { protect } from "../middleware/authMiddleware";
 
 const router = express.Router();

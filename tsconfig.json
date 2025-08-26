@@ -11,11 +11,11 @@
   },
   "include": [
     "*.ts",
-    "config/**/*",
+    "src/config/**/*",
     "controllers/**/*",
-    "middleware/**/*",
-    "models/**/*",
-    "routes/**/*"
+    "src/middleware/**/*",
+    "src/models/**/*",
+    "src/routes/**/*"
   ],
   "exclude": ["node_modules", "dist"]
 }

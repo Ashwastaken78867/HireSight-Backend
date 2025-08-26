@@ -1,6 +1,6 @@
 // backend/controllers/authController.ts
 import { Request, Response } from "express";
-import User from "../models/User";
+import User from "../src/models/User";
 import jwt from "jsonwebtoken";
 
 const JWT_SECRET = process.env.JWT_SECRET || "secretkey";

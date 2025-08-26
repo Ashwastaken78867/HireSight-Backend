@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import JobApplication, { IJobApplication } from "../models/JobApplications";
+import JobApplication, { IJobApplication } from "../src/models/JobApplications";
 
 // 📌 Add a new job application
 export const createJobApplication = async (req: Request, res: Response) => {
